@@ -17,7 +17,7 @@ connectCloudinary()
 const app=express()
 app.use(cors({
   origin: 'https://hotel-booking-front-end-zeta.vercel.app',
-  credentials: true // if you are using cookies/JWT in headers
+//   credentials: true // if you are using cookies/JWT in headers
 }));
 
 //enable cross origin resource
